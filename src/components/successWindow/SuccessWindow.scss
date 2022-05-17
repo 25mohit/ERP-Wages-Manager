@@ -1,0 +1,31 @@
+.seccess-window{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background-color: green;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    .success-bt{
+        font-weight: bold;
+        color: white;
+        padding: 10px 15px;
+        margin: 0 10px;
+        border-radius: 50%;
+        border: 1px solid green;
+        background-color: green;
+    }
+    .success-bt:hover{
+        cursor: pointer;
+        color: green;
+        border: 1px solid green;
+        transition: 0.5s;
+        background-color: white;
+    }
+    p{
+        user-select: none;
+    }
+}

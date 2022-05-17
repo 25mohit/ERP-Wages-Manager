@@ -1,0 +1,73 @@
+.main-wages-div{
+    // width: 250px;
+    text-align: left;
+    .employe-detail{
+        text-align: left;
+        background-color: rgb(36,36,36);
+        color: white;
+        padding: 10px 25px;
+        border-radius: 10px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        width: fit-content;
+    }
+.wages-div-name{
+    display: flex;
+    // padding: 0px 10px;
+    font-size: 20px;
+    align-items: center;
+    .index{
+        color: gray;
+    }
+    .wages-name{
+        margin: 0 10px;
+        font-weight: bold;
+    }
+    .price{
+        color: red;
+        font-weight: 500;
+        margin: 0px 15px;
+    }
+    button{
+        border: none;
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(255, 70, 70);
+    }
+}
+.finale-amount{
+    display: list-item;
+    text-align: left;
+    font-size: 20px;
+    .reamining{
+        align-items: center;
+        .remining-amout{
+            color: green;
+            font-weight: bold;
+            span{
+                // font-weight: normal;
+                font-size: 15px;
+                margin-left: 5px;
+
+            }
+        }
+    }
+    .total-wages{
+        .total-amout-wages{
+            color: red;
+            font-weight: bold;
+            span{
+                font-size: 15px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+}

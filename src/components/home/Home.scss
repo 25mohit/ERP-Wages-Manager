@@ -1,0 +1,11 @@
+.home-main-div{
+    display: list-item;
+    list-style: none;
+    // .header{}
+    .hero-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px 50px;
+    }
+}

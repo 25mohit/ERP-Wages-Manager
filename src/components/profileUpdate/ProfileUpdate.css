@@ -1,0 +1,118 @@
+.profile-model-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profile-model-window .profile-model-card {
+  border-radius: 10px;
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  display: list-item;
+  list-style: none;
+  padding: 20px;
+}
+
+.profile-model-window .profile-model-card .update-header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+}
+
+.profile-model-window .profile-model-card .update-header .user-name {
+  font-weight: bold;
+  color: #cd8500;
+}
+
+.profile-model-window .profile-model-card .profile-form form {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: inline-block;
+}
+
+.profile-model-window .profile-model-card .profile-form form button {
+  margin: 20px 0;
+}
+
+.profile-model-window .profile-model-card .profile-form form .single-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .single-field .label-div {
+  width: 35%;
+  text-align: right;
+}
+
+.profile-model-window .profile-model-card .profile-form form .single-field .label-div .form-label {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .single-field .field-div {
+  width: 75%;
+  text-align: left;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input, .profile-model-window .profile-model-card .profile-form form textarea {
+  font-size: 20px;
+  padding: 15px;
+  border: 1px solid #ffc456;
+  width: 350px;
+  margin: 10px 0;
+}
+
+.profile-model-window .profile-model-card .profile-form form textarea {
+  resize: none;
+  width: 350px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input:focus, .profile-model-window .profile-model-card .profile-form form textarea:focus {
+  outline: 2px solid #ffc456;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input::-webkit-input-placeholder, .profile-model-window .profile-model-card .profile-form form textarea::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input:-ms-input-placeholder, .profile-model-window .profile-model-card .profile-form form textarea:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input::-ms-input-placeholder, .profile-model-window .profile-model-card .profile-form form textarea::-ms-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.profile-model-window .profile-model-card .profile-form form .profle-input::placeholder, .profile-model-window .profile-model-card .profile-form form textarea::placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+/*# sourceMappingURL=ProfileUpdate.css.map */

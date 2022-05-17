@@ -1,0 +1,116 @@
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .model-login {
+  background-color: rgba(249, 249, 249, 0.9);
+  color: black;
+  padding: 15px;
+  width: 50%;
+  height: 50%;
+  min-height: 350px;
+  border-radius: 10px;
+}
+
+.login .model-login .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.login .model-login .heading h1 {
+  color: rgba(33, 153, 143, 0.9);
+}
+
+.login .model-login .heading .close-model {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: white;
+}
+
+.login .model-login .heading .close-model:hover {
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: black;
+  background-color: #ebebeb;
+}
+
+.login .model-login button {
+  background-color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  color: black;
+}
+
+.login .model-login button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #9c9c9c;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.login .model-login input[type=text], .login .model-login input[type=password] {
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.login .model-login input[type=text]:focus {
+  outline: 3px solid rgba(33, 153, 143, 0.9);
+}
+
+.login .model-login input[type=password]:focus {
+  outline: 3px solid rgba(33, 153, 143, 0.9);
+}
+
+.login .model-login ::-webkit-input-placeholder {
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 10px;
+}
+
+.login .model-login :-ms-input-placeholder {
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 10px;
+}
+
+.login .model-login ::-ms-input-placeholder {
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 10px;
+}
+
+.login .model-login ::placeholder {
+  font-size: 15px;
+  color: #b0b0b0;
+  padding-left: 10px;
+}
+/*# sourceMappingURL=Login.css.map */

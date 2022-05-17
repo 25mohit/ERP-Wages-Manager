@@ -1,0 +1,89 @@
+.main-wages-div {
+  text-align: left;
+}
+
+.main-wages-div .employe-detail {
+  text-align: left;
+  background-color: #242424;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main-wages-div .wages-div-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-wages-div .wages-div-name .index {
+  color: gray;
+}
+
+.main-wages-div .wages-div-name .wages-name {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.main-wages-div .wages-div-name .price {
+  color: red;
+  font-weight: 500;
+  margin: 0px 15px;
+}
+
+.main-wages-div .wages-div-name button {
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.main-wages-div .wages-div-name button:hover {
+  cursor: pointer;
+  background-color: #ff4646;
+}
+
+.main-wages-div .finale-amount {
+  display: list-item;
+  text-align: left;
+  font-size: 20px;
+}
+
+.main-wages-div .finale-amount .reamining {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-wages-div .finale-amount .reamining .remining-amout {
+  color: green;
+  font-weight: bold;
+}
+
+.main-wages-div .finale-amount .reamining .remining-amout span {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.main-wages-div .finale-amount .total-wages .total-amout-wages {
+  color: red;
+  font-weight: bold;
+}
+
+.main-wages-div .finale-amount .total-wages .total-amout-wages span {
+  font-size: 15px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=WagesList.css.map */

@@ -1,0 +1,16 @@
+.home-main-div {
+  display: list-item;
+  list-style: none;
+}
+
+.home-main-div .hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px 50px;
+}
+/*# sourceMappingURL=Home.css.map */

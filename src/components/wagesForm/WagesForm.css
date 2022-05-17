@@ -1,0 +1,55 @@
+.wages-form-div {
+  text-align: left;
+}
+
+.wages-form-div .wages-text-field {
+  font-size: 20px;
+  padding: 15px;
+  border: 1px solid #ffc456;
+  width: 350px;
+  margin: 10px 0;
+}
+
+.wages-form-div .wages-text-field:focus {
+  outline: 2px solid #ffc456;
+}
+
+.wages-form-div .wages-text-field::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.wages-form-div .wages-text-field:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.wages-form-div .wages-text-field::-ms-input-placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.wages-form-div .wages-text-field::placeholder {
+  color: #bfbfbf;
+  font-size: 15px;
+}
+
+.wages-form-div button {
+  margin: 20px 0;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.wages-form-div button:hover {
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-color: #ececec;
+  border: 1px solid black;
+  color: black;
+}
+/*# sourceMappingURL=WagesForm.css.map */

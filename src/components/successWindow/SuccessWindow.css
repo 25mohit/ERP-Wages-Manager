@@ -1,0 +1,43 @@
+.seccess-window {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  background-color: green;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.seccess-window .success-bt {
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 50%;
+  border: 1px solid green;
+  background-color: green;
+}
+
+.seccess-window .success-bt:hover {
+  cursor: pointer;
+  color: green;
+  border: 1px solid green;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.seccess-window p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=SuccessWindow.css.map */

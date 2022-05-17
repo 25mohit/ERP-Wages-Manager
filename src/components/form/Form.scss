@@ -1,0 +1,40 @@
+.form-main-div{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-image: url("https://wallpaperaccess.com/full/967674.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+    .center{
+        .user-btn{
+            background-color: transparent;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            color: white;
+            font-size: 30px;
+            margin: 0 20px;
+        }
+        .user-btn:hover{
+            cursor: pointer;
+            // text-decoration: underline;
+            border-bottom: 3px solid #ffffff;
+        }
+    }
+    .help-img{
+        bottom: 10px;
+        left: 10px;
+        position: fixed;
+        .help-img{
+            user-select: none;
+            width: 40px;
+            opacity: 0.5;
+        }
+        .help-img:hover{
+            cursor: pointer;
+        }
+    }
+}
